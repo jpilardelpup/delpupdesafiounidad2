@@ -1,225 +1,198 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page - Producto</title>
-</head>
-<body>
-
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <!-- ENCABEZADO -->
     <header>
-        <div>
-            <h1>TechStore</h1>
-        </div>
+      <div>
+        <h1>TechStore</h1>
+      </div>
 
-        <form>
-            <input type="search" placeholder="Buscar productos...">
-            <button type="submit">Buscar</button>
-        </form>
+      <form>
+        <input type="search" placeholder="Buscar productos..." />
+        <button type="submit">Buscar</button>
+      </form>
 
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Categorías</a></li>
-                <li><a href="#">Ofertas</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Categorías</a></li>
+          <li><a href="#">Ofertas</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
+      <!-- PRESENTACIÓN DEL PRODUCTO -->
+      <section>
+        <article>
+          <p>Nuevo</p>
 
-        <!-- PRESENTACIÓN DEL PRODUCTO -->
-        <section>
-            <article>
+          <h2>Auriculares Inalámbricos Bluetooth</h2>
 
-                <p>Nuevo</p>
+          <figure>
+            <img
+              src="imagen.jpg"
+              width="300"
+              alt="Auriculares inalámbricos color negro"
+            />
+            <figcaption>Vista principal del producto</figcaption>
+          </figure>
+        </article>
+      </section>
 
-                <h2>Auriculares Inalámbricos Bluetooth</h2>
+      <!-- MÓDULO DE COMPRA -->
+      <section>
+        <h3>Precio y medios de pago</h3>
 
-                <figure>
-                    <img 
-                        src="imagen.jpg" width="300"
-                        alt="Auriculares inalámbricos color negro"
-                    >
-                    <figcaption>
-                        Vista principal del producto
-                    </figcaption>
-                </figure>
+        <p>
+          <del>$120.000</del>
+        </p>
 
-            </article>
-        </section>
+        <p>
+          <strong>$89.999</strong>
+        </p>
 
-        <!-- MÓDULO DE COMPRA -->
-        <section>
+        <p>25% OFF</p>
 
-            <h3>Precio y medios de pago</h3>
+        <p>Hasta 6 cuotas sin interés de $15.000</p>
 
-            <p>
-                <del>$120.000</del>
-            </p>
+        <p>
+          Medios de pago: Tarjeta de crédito, débito y transferencia bancaria.
+        </p>
 
-            <p>
-                <strong>$89.999</strong>
-            </p>
+        <button>Comprar ahora</button>
+      </section>
 
-            <p>25% OFF</p>
+      <!-- FICHA TÉCNICA Y DESCRIPCIÓN -->
+      <section>
+        <h3>Descripción del producto</h3>
 
-            <p>
-                Hasta 6 cuotas sin interés de $15.000
-            </p>
+        <p>
+          Estos auriculares inalámbricos ofrecen sonido de alta calidad,
+          cancelación de ruido y una batería de larga duración ideal para
+          trabajar, estudiar o escuchar música durante todo el día.
+        </p>
 
-            <p>
-                Medios de pago: Tarjeta de crédito, débito y transferencia bancaria.
-            </p>
+        <details>
+          <summary>Ver ficha técnica</summary>
 
-            <button>Comprar ahora</button>
+          <ul>
+            <li>Conectividad Bluetooth 5.0</li>
+            <li>Batería de hasta 20 horas</li>
+            <li>Micrófono incorporado</li>
+            <li>Cancelación de ruido</li>
+            <li>Compatible con Android e iOS</li>
+          </ul>
+        </details>
+      </section>
 
-        </section>
+      <!-- OPINIONES -->
+      <section>
+        <h3>Opiniones de usuarios</h3>
 
-        <!-- FICHA TÉCNICA Y DESCRIPCIÓN -->
-        <section>
+        <!-- Comentario 1 -->
+        <article>
+          <header>
+            <div>
+              <h4>María Gómez</h4>
+              <time datetime="2026-05-02"> 2 de mayo de 2026 </time>
+            </div>
 
-            <h3>Descripción del producto</h3>
+            <img
+              src="perfil.jpg"
+              width="200"
+              alt="Foto de perfil de María Gómez"
+            />
+          </header>
 
-            <p>
-                Estos auriculares inalámbricos ofrecen sonido de alta calidad,
-                cancelación de ruido y una batería de larga duración ideal para
-                trabajar, estudiar o escuchar música durante todo el día.
-            </p>
+          <p>
+            Excelente calidad de sonido y muy cómodos para usar varias horas.
+          </p>
+        </article>
 
-            <details>
-                <summary>Ver ficha técnica</summary>
+        <!-- Comentario 2 -->
+        <article>
+          <header>
+            <div>
+              <h4>Juan Pérez</h4>
+              <time datetime="2026-04-28"> 28 de abril de 2026 </time>
+            </div>
 
-                <ul>
-                    <li>Conectividad Bluetooth 5.0</li>
-                    <li>Batería de hasta 20 horas</li>
-                    <li>Micrófono incorporado</li>
-                    <li>Cancelación de ruido</li>
-                    <li>Compatible con Android e iOS</li>
-                </ul>
-            </details>
+            <img
+              src="juan.jpg"
+              width="200"
+              alt="Foto de perfil de Juan Pérez"
+            />
+          </header>
 
-        </section>
+          <p>
+            La batería dura muchísimo y la conexión Bluetooth funciona perfecto.
+          </p>
+        </article>
+      </section>
 
-        <!-- OPINIONES -->
-        <section>
+      <!-- PRODUCTOS RELACIONADOS -->
+      <aside>
+        <h3>Productos relacionados</h3>
 
-            <h3>Opiniones de usuarios</h3>
+        <article>
+          <img
+            src="parlante.jpg"
+            width="200"
+            alt="Parlante portátil bluetooth"
+          />
 
-            <!-- Comentario 1 -->
-            <article>
+          <h4>Parlante Bluetooth</h4>
 
-                <header>
-                    <img 
-                        src="perfil.jpg" width="200"
-                        alt="Foto de perfil de María Gómez"
-                    >
+          <p>$45.000</p>
+        </article>
 
-                    <div>
-                        <h4>María Gómez</h4>
-                        <time datetime="2026-05-02">
-                            2 de mayo de 2026
-                        </time>
-                    </div>
-                </header>
+        <article>
+          <img src="reloj.jpg" width="200" alt="Smartwatch deportivo negro" />
 
-                <p>
-                    Excelente calidad de sonido y muy cómodos para usar varias horas.
-                </p>
+          <h4>Smartwatch Deportivo</h4>
 
-            </article>
-
-            <!-- Comentario 2 -->
-            <article>
-
-                <header>
-                    <img 
-                        src="juan.jpg" width="200"
-                        alt="Foto de perfil de Juan Pérez"
-                    >
-
-                    <div>
-                        <h4>Juan Pérez</h4>
-                        <time datetime="2026-04-28">
-                            28 de abril de 2026
-                        </time>
-                    </div>
-                </header>
-
-                <p>
-                    La batería dura muchísimo y la conexión Bluetooth funciona perfecto.
-                </p>
-
-            </article>
-
-        </section>
-
-        <!-- PRODUCTOS RELACIONADOS -->
-        <aside>
-
-            <h3>Productos relacionados</h3>
-
-            <article>
-                <img 
-                    src="parlante.jpg" width="200"
-                    alt="Parlante portátil bluetooth"
-                >
-
-                <h4>Parlante Bluetooth</h4>
-
-                <p>$45.000</p>
-            </article>
-
-            <article>
-                <img 
-                    src="reloj.jpg" width="200"
-                    alt="Smartwatch deportivo negro"
-                >
-
-                <h4>Smartwatch Deportivo</h4>
-
-                <p>$70.000</p>
-            </article>
-
-        </aside>
-
+          <p>$70.000</p>
+        </article>
+      </aside>
     </main>
 
     <!-- PIE DE PÁGINA -->
     <footer>
+      <section>
+        <h4>Contacto</h4>
+        <p>Email: soporte@techstore.com</p>
+        <p>Teléfono: +54 11 1234-5678</p>
+      </section>
 
-        <section>
-            <h4>Contacto</h4>
-            <p>Email: soporte@techstore.com</p>
-            <p>Teléfono: +54 11 1234-5678</p>
-        </section>
+      <section>
+        <h4>Ayuda</h4>
 
-        <section>
-            <h4>Ayuda</h4>
+        <nav>
+          <ul>
+            <li><a href="#">Preguntas frecuentes</a></li>
+            <li><a href="#">Cambios y devoluciones</a></li>
+            <li><a href="#">Seguimiento de pedidos</a></li>
+          </ul>
+        </nav>
+      </section>
 
-            <nav>
-                <ul>
-                    <li><a href="#">Preguntas frecuentes</a></li>
-                    <li><a href="#">Cambios y devoluciones</a></li>
-                    <li><a href="#">Seguimiento de pedidos</a></li>
-                </ul>
-            </nav>
-        </section>
+      <section>
+        <h4>Medios de pago</h4>
+        <p>Visa, MasterCard, Mercado Pago y Transferencia bancaria.</p>
+      </section>
 
-        <section>
-            <h4>Medios de pago</h4>
-            <p>Visa, MasterCard, Mercado Pago y Transferencia bancaria.</p>
-        </section>
-
-        <section>
-            <h4>Garantía</h4>
-            <p>Garantía oficial de 12 meses.</p>
-        </section>
-
+      <section>
+        <h4>Garantía</h4>
+        <p>Garantía oficial de 12 meses.</p>
+      </section>
     </footer>
-    
-
-</body>
+  </body>
 </html>
